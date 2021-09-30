@@ -4,9 +4,13 @@ Rails.application.routes.draw do
 
   # GET /sign_up
   get 'sign_up', to: 'registrations#new'
-
   # POST /sign_up
   post 'sign_up', to: 'registrations#create'
+
+  # GET /sign_in
+  get 'sign_in', to: 'sessions#new'
+  # POST /sign_in
+  post 'sign_in', to: 'sessions#create'
 
   # DELETE
   delete 'logout', to: 'sessions#destroy'
