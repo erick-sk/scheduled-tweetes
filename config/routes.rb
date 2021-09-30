@@ -8,6 +8,9 @@ Rails.application.routes.draw do
   # POST /sign_up
   post 'sign_up', to: 'registrations#create'
 
+  # DELETE
+  delete 'logout', to: 'sessions#destroy'
+
   # GET /
   root to: 'main#index'
 
