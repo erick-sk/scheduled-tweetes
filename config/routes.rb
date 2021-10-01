@@ -2,6 +2,10 @@ Rails.application.routes.draw do
   # GET /about
   get 'about', to: 'about#index'
 
+  # passwords
+  get 'password', to: 'passwords#edit', as: :edit_password
+  patch 'password', to: 'passwords#update'
+
   # GET /sign_up
   get 'sign_up', to: 'registrations#new'
   # POST /sign_up
