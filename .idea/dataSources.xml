@@ -8,5 +8,14 @@
       <jdbc-url>jdbc:sqlite:\\wsl$\Ubuntu-20.04\home\ericksk\erick-sk\scheduled_tweets\db\development.sqlite3</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="Rails scheduled_tweets: development" uuid="62823a30-f5a9-4ffe-8216-552ec296bc5a">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:\\wsl$\Ubuntu-20.04\home\ericksk\erick-sk\scheduled_tweets\db\development.sqlite3</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
